@@ -51,7 +51,7 @@ export async function login() {
         return true;
     } catch (error) {
         console.error(error);
-        return error;
+        return false;
     }
 }
 
@@ -61,7 +61,7 @@ export async function logout() {
         return true;
     } catch (error) {
         console.error(error);
-        return error;
+        return false;
     }
 }
 
@@ -77,6 +77,6 @@ export async function getCurrentUser() {
         }
     } catch (error) {
         console.error(error);
-        return error;
+        return null;
     }
 }
