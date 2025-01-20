@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.lurdenulti.react_native_tut"
     },
     "web": {
       "bundler": "metro",
@@ -49,6 +50,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "965fd882-5163-4c43-80c1-79712f312dd0"
+      }
     }
   }
 }
